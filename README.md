@@ -15,7 +15,7 @@ I am also going to upload the schematic once finalized, which is a very straight
 
 ## Earritrons.ino
 
-The only code necessary for the project, designed as a Finite State Machine to allow for easy mode changes.
+The only code necessary for the project, designed as a Finite State Machine to allow for easy mode changes via an interrupt attached to a push button.
 
 ## PulseTest
 
@@ -27,7 +27,7 @@ Building is still in the works for a final version, but I like how far it's come
 
 The board, mode button, and cable ends for the earrings are all complete and soldered. The earrings themselves are still in the works.
 
-The main issue is that the numitrons have 9 pins, which means I'd have to run 9 wires to each ear. In addition, I figured it would be best to be able to detach the earrings in case one breaks and make the apparatus easier to take off/put on. Firstly, we don't use the decimal point, so we can knock that down to 8 wires. Secondly, it turns out that using ethernet cables have 8 internal wires and have convenient plugs and allow for extending the cables if you need to place the power box for the earrings somewhere random, like hooked on a belt or in a bag.
+The main issue is that the numitrons have 9 pins, which means I'd have to run 9 wires to each ear. In addition, I figured it would be best to be able to detach the earrings in case one breaks and make the apparatus easier to take off/put on. Firstly, we don't use the decimal point, so we can knock that down to 8 wires. Secondly, it turns out that ethernet cables have 8 internal wires and have convenient plugs and allow for extending the cables if you need to place the power box for the earrings somewhere random, like hooked on a belt or in a bag. So, we can use ethernet cables as the bus for the wires and then hook the numitron up somehow.
 
 The completed board has 2 short female ethernet cable ends into which the main earring cables can be plugged.
 
